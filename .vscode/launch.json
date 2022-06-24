@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/src/Api.Application/bin/Debug/netcoreapp3.1/application.dll",
+            "program": "${workspaceFolder}/src/Api.Application/bin/Debug/net5.0/application.dll",
             "args": [],
             "cwd": "${workspaceFolder}/src/Api.Application",
             "stopAtEntry": false,
@@ -21,6 +21,12 @@
             },
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development"
+                "DB_CONNECTION": "Persist Security Info=True;Server=localhost;Port=3306;DataBase=dbNET5Atualizado;Uid=root;Pwd=mudar@123",
+                "DATABASE": "MYSQL",
+                "MIGRATION": "APLICAR",
+                "Audience": "ExemploAudience",
+                "Issuer": "ExemploIssue",
+                "Seconds": "28800"
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
@@ -29,7 +35,8 @@
         {
             "name": ".NET Core Attach",
             "type": "coreclr",
-            "request": "attach"
+            "request": "attach",
+            "processId": "${command:pickProcess}"
         }
     ]
 }

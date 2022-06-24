@@ -35,7 +35,7 @@ namespace Data.Repository
             catch (Exception ex)
             {
 
-                throw ex;
+                throw new DbUpdateException(ex.Message);
             }
         }
 
@@ -56,7 +56,7 @@ namespace Data.Repository
             catch (Exception ex)
             {
 
-                throw ex;
+                throw new DbUpdateException(ex.Message);
             }
             return item;
         }
@@ -73,7 +73,7 @@ namespace Data.Repository
             catch (Exception ex)
             {
 
-                throw ex;
+                throw new DbUpdateException(ex.Message);
             }
                 }
 
@@ -86,7 +86,7 @@ namespace Data.Repository
             catch (Exception ex)
             {
 
-                throw ex;
+                throw new DbUpdateException(ex.Message);
             }
                 }
 
@@ -106,7 +106,7 @@ namespace Data.Repository
                 }
                 catch (Exception ex)
                 {
-                    throw ex;
+                throw new DbUpdateException(ex.Message);
                 }
                 return item;
                 }

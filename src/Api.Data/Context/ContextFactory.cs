@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
+using System;
 
 namespace Api.Data.Context
 {
@@ -10,7 +12,9 @@ namespace Api.Data.Context
             //Usado para Criar as Migrações
             var connectionString = "Server=localhost;Port=3306;Database=dbAPI;Uid=root;Pwd=mudar@123";
             var optionsBuilder = new DbContextOptionsBuilder<MyContext> ();
-            optionsBuilder.UseMySql (connectionString);
+            optionsBuilder.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 21)),
+                mySqlOptions => mySqlOptions.CharSetBehavior(CharSetBehavior.NeverAppend)
+                );
             return new MyContext (optionsBuilder.Options);
         }
     }

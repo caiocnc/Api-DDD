@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Api.Data.Context;
 using Domain.Repository;
 using Data.Implementations;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 namespace CrossCutting.DependencyInjection
 {
@@ -19,7 +20,10 @@ namespace CrossCutting.DependencyInjection
             serviceCollection.AddScoped<IUserRepository, UserImplementation>();
 
             serviceCollection.AddDbContext<MyContext>(
-        options => options.UseMySql("Server=localhost;Port=3306;Database=dbAPI;Uid=root;Pwd=mudar@123")
+        options => options.UseMySql(Environment.GetEnvironmentVariable("DB_CONNECTION"),
+            new MySqlServerVersion(new Version(8, 0, 21)),
+                mySqlOptions => mySqlOptions
+                    .CharSetBehavior(CharSetBehavior.NeverAppend))
     );
         }
     }
