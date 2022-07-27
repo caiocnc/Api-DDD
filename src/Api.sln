@@ -1,17 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "application", "Api.Application\application.csproj", "{231BC552-C4C1-471D-ADA1-E8B974E091AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "application", "Api.Application\application.csproj", "{231BC552-C4C1-471D-ADA1-E8B974E091AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Api.Domain\Domain.csproj", "{C41B25F5-E048-41A2-89B0-69BEAD3D0FB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Api.Domain\Domain.csproj", "{C41B25F5-E048-41A2-89B0-69BEAD3D0FB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossCutting", "Api.CrossCutting\CrossCutting.csproj", "{CB060A40-6205-48D7-ACCB-5CED65685471}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossCutting", "Api.CrossCutting\CrossCutting.csproj", "{CB060A40-6205-48D7-ACCB-5CED65685471}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Api.Data\Data.csproj", "{2ADADF25-C08F-426A-9E86-F46CC2E38DDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Api.Data\Data.csproj", "{2ADADF25-C08F-426A-9E86-F46CC2E38DDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Api.Service\Service.csproj", "{31EA01F9-468D-4003-A601-E621705AED5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Api.Service\Service.csproj", "{31EA01F9-468D-4003-A601-E621705AED5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data.Test", "Api.Data.Test\Data.Test.csproj", "{8D045C68-0EF1-4F84-9508-4C1B397DBF78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{231BC552-C4C1-471D-ADA1-E8B974E091AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -86,5 +85,23 @@ Global
 		{31EA01F9-468D-4003-A601-E621705AED5F}.Release|x64.Build.0 = Release|Any CPU
 		{31EA01F9-468D-4003-A601-E621705AED5F}.Release|x86.ActiveCfg = Release|Any CPU
 		{31EA01F9-468D-4003-A601-E621705AED5F}.Release|x86.Build.0 = Release|Any CPU
+		{8D045C68-0EF1-4F84-9508-4C1B397DBF78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D045C68-0EF1-4F84-9508-4C1B397DBF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D045C68-0EF1-4F84-9508-4C1B397DBF78}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8D045C68-0EF1-4F84-9508-4C1B397DBF78}.Debug|x64.Build.0 = Debug|Any CPU
+		{8D045C68-0EF1-4F84-9508-4C1B397DBF78}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8D045C68-0EF1-4F84-9508-4C1B397DBF78}.Debug|x86.Build.0 = Debug|Any CPU
+		{8D045C68-0EF1-4F84-9508-4C1B397DBF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D045C68-0EF1-4F84-9508-4C1B397DBF78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D045C68-0EF1-4F84-9508-4C1B397DBF78}.Release|x64.ActiveCfg = Release|Any CPU
+		{8D045C68-0EF1-4F84-9508-4C1B397DBF78}.Release|x64.Build.0 = Release|Any CPU
+		{8D045C68-0EF1-4F84-9508-4C1B397DBF78}.Release|x86.ActiveCfg = Release|Any CPU
+		{8D045C68-0EF1-4F84-9508-4C1B397DBF78}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD614E51-17F7-4A18-B65C-C89CFA704FD5}
 	EndGlobalSection
 EndGlobal
