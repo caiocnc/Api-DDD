@@ -7,8 +7,7 @@ namespace Domain.Dtos.User
 {
     public class UserDtoUpdate
     {
-        public class UserDtoCreate
-        {
+
             [Required(ErrorMessage = "Id é um campo obrigatório.")]
             public Guid Id { get; set; }
             [Required(ErrorMessage = "Nome é um campo obrigatório.")]
@@ -18,6 +17,6 @@ namespace Domain.Dtos.User
             [EmailAddress(ErrorMessage = "Email em formato inválido.")]
             [StringLength(100, ErrorMessage = "Email deve ter no máximo {1} caracteres.")]
             public string Email { get; set; }
-        }
+        
     }
 }

@@ -17,6 +17,8 @@ namespace CrossCutting.Mappings
                 .ReverseMap();
             CreateMap<UserDtoUpdateResult, UserEntity>()
                 .ReverseMap();
+            CreateMap<UserDto, UserEntity>()
+                .ReverseMap();
         }    
     }
 }
