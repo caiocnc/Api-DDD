@@ -8,12 +8,12 @@
     ".NETCoreApp,Version=v5.0": {
       "Api.Application.Test/1.0.0": {
         "dependencies": {
+          "Application": "1.0.0",
           "Domain": "1.0.0",
           "Faker.NETCore": "1.0.2",
           "Microsoft.NET.Test.Sdk": "16.9.4",
           "Moq": "4.14.5",
           "Service": "1.0.0",
-          "application": "1.0.0",
           "coverlet.collector": "3.0.2",
           "xunit": "2.4.1",
           "xunit.runner.visualstudio": "2.4.3"
@@ -1729,7 +1729,7 @@
         }
       },
       "xunit.runner.visualstudio/2.4.3": {},
-      "application/1.0.0": {
+      "Application/1.0.0": {
         "dependencies": {
           "CrossCutting": "1.0.0",
           "Domain": "1.0.0",
@@ -1738,7 +1738,7 @@
           "Swashbuckle.AspNetCore": "6.0.5"
         },
         "runtime": {
-          "application.dll": {}
+          "Application.dll": {}
         }
       },
       "CrossCutting/1.0.0": {
@@ -2881,7 +2881,7 @@
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
     },
-    "application/1.0.0": {
+    "Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

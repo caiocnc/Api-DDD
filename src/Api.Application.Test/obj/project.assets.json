@@ -2647,7 +2647,7 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "application/1.0.0": {
+      "Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -2658,10 +2658,10 @@
           "Swashbuckle.AspNetCore": "6.0.5"
         },
         "compile": {
-          "bin/placeholder/application.dll": {}
+          "bin/placeholder/Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/application.dll": {}
+          "bin/placeholder/Application.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -8822,10 +8822,10 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "application/1.0.0": {
+    "Application/1.0.0": {
       "type": "project",
-      "path": "../Api.Application/application.csproj",
-      "msbuildProject": "../Api.Application/application.csproj"
+      "path": "../Api.Application/Application.csproj",
+      "msbuildProject": "../Api.Application/Application.csproj"
     },
     "CrossCutting/1.0.0": {
       "type": "project",
@@ -8850,12 +8850,12 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Application >= 1.0.0",
       "Domain >= 1.0.0",
       "Faker.NETCore >= 1.0.2",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "Moq >= 4.14.5",
       "Service >= 1.0.0",
-      "application >= 1.0.0",
       "coverlet.collector >= 3.0.2",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -8869,9 +8869,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\curso_api_netcore\\src\\Api.Application.Test\\Api.Application.Test.csproj",
-      "projectName": "Api.Application.Test",
-      "projectPath": "D:\\curso_api_netcore\\src\\Api.Application.Test\\Api.Application.Test.csproj",
+      "projectUniqueName": "D:\\curso_api_netcore\\src\\Api.Application.Test\\Application.Test.csproj",
+      "projectName": "Application.Test",
+      "projectPath": "D:\\curso_api_netcore\\src\\Api.Application.Test\\Application.Test.csproj",
       "packagesPath": "C:\\Users\\Conta\\.nuget\\packages\\",
       "outputPath": "D:\\curso_api_netcore\\src\\Api.Application.Test\\obj\\",
       "projectStyle": "PackageReference",
@@ -8895,8 +8895,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\curso_api_netcore\\src\\Api.Application\\application.csproj": {
-              "projectPath": "D:\\curso_api_netcore\\src\\Api.Application\\application.csproj"
+            "D:\\curso_api_netcore\\src\\Api.Application\\Application.csproj": {
+              "projectPath": "D:\\curso_api_netcore\\src\\Api.Application\\Application.csproj"
             },
             "D:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
               "projectPath": "D:\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"

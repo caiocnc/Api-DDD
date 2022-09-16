@@ -13,6 +13,7 @@ D:\curso_api_netcore\src\Api.Data.Test\bin\Debug\net5.0\ref\Data.Test.dll
 D:\curso_api_netcore\src\Api.Data.Test\bin\Debug\net5.0\Data.Test.pdb
 D:\curso_api_netcore\src\Api.Data.Test\bin\Debug\net5.0\AutoMapper.dll
 D:\curso_api_netcore\src\Api.Data.Test\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\curso_api_netcore\src\Api.Data.Test\bin\Debug\net5.0\Faker.NETCore.dll
 D:\curso_api_netcore\src\Api.Data.Test\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 D:\curso_api_netcore\src\Api.Data.Test\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 D:\curso_api_netcore\src\Api.Data.Test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
@@ -57,6 +58,7 @@ D:\curso_api_netcore\src\Api.Data.Test\bin\Debug\net5.0\xunit.abstractions.dll
 D:\curso_api_netcore\src\Api.Data.Test\bin\Debug\net5.0\xunit.assert.dll
 D:\curso_api_netcore\src\Api.Data.Test\bin\Debug\net5.0\xunit.core.dll
 D:\curso_api_netcore\src\Api.Data.Test\bin\Debug\net5.0\xunit.execution.dotnet.dll
+D:\curso_api_netcore\src\Api.Data.Test\bin\Debug\net5.0\de-DE\Faker.NETCore.resources.dll
 D:\curso_api_netcore\src\Api.Data.Test\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 D:\curso_api_netcore\src\Api.Data.Test\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 D:\curso_api_netcore\src\Api.Data.Test\bin\Debug\net5.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -156,5 +158,3 @@ D:\curso_api_netcore\src\Api.Data.Test\obj\Debug\net5.0\Data.Test.dll
 D:\curso_api_netcore\src\Api.Data.Test\obj\Debug\net5.0\ref\Data.Test.dll
 D:\curso_api_netcore\src\Api.Data.Test\obj\Debug\net5.0\Data.Test.pdb
 D:\curso_api_netcore\src\Api.Data.Test\obj\Debug\net5.0\Data.Test.genruntimeconfig.cache
-D:\curso_api_netcore\src\Api.Data.Test\bin\Debug\net5.0\Faker.NETCore.dll
-D:\curso_api_netcore\src\Api.Data.Test\bin\Debug\net5.0\de-DE\Faker.NETCore.resources.dll

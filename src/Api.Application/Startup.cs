@@ -84,19 +84,19 @@ namespace application
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Curso de API com .NetCore3.1/NET5.0 - Na Prática",
+                    Title = "API com .NetCore3.1/NET5.0",
                     Description = "Arquitetura DDD - Atualizado em 24/06/2022",
-                    TermsOfService = new Uri("http://www.mfinfo.com.br"),
+                    TermsOfService = new Uri("https://github.com/caiocnc"),
                     Contact = new OpenApiContact()
                     {
-                        Name = "Marcos Fabricio Rosa",
-                        Email = "mfr@mail.com",
-                        Url = new Uri("http://www.mfrinfo.com.br")
+                        Name = "Caio Henrique do Nascimento",
+                        Email = "contatocnc@hotmail.com",
+                        Url = new Uri("https://github.com/caiocnc")
                     },
                     License = new OpenApiLicense()
                     {
                         Name = "Termo de Licença de Uso",
-                        Url = new Uri("http://www.mfrinfo.com.br")
+                        Url = new Uri("https://github.com/caiocnc")
                     }
                 });
 
@@ -132,7 +132,7 @@ namespace application
             }
             app.UseSwagger();
             app.UseSwaggerUI(c=> {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Curso de API com .NetCore3.1/NET5.0 - Na Prática");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API com .NetCore3.1/NET5.0");
                 c.RoutePrefix = string.Empty;
             });
 

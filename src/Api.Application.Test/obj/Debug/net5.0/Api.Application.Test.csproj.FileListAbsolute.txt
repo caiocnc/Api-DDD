@@ -19,6 +19,8 @@ D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\ref\Api.Applicati
 D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\Api.Application.Test.pdb
 D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\AutoMapper.dll
 D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\Castle.Core.dll
+D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\Faker.NETCore.dll
 D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
@@ -40,6 +42,7 @@ D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\Microsoft.TestPla
 D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\Microsoft.TestPlatform.CrossPlatEngine.dll
 D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\Microsoft.TestPlatform.Utilities.dll
 D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\Moq.dll
 D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\MySqlConnector.dll
 D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\NuGet.Frameworks.dll
@@ -56,6 +59,7 @@ D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\xunit.abstraction
 D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\xunit.assert.dll
 D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\xunit.core.dll
 D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\xunit.execution.dotnet.dll
+D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\de-DE\Faker.NETCore.resources.dll
 D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -153,7 +157,3 @@ D:\curso_api_netcore\src\Api.Application.Test\obj\Debug\net5.0\Api.Application.T
 D:\curso_api_netcore\src\Api.Application.Test\obj\Debug\net5.0\ref\Api.Application.Test.dll
 D:\curso_api_netcore\src\Api.Application.Test\obj\Debug\net5.0\Api.Application.Test.pdb
 D:\curso_api_netcore\src\Api.Application.Test\obj\Debug\net5.0\Api.Application.Test.genruntimeconfig.cache
-D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\Castle.Core.dll
-D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\Faker.NETCore.dll
-D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\Moq.dll
-D:\curso_api_netcore\src\Api.Application.Test\bin\Debug\net5.0\de-DE\Faker.NETCore.resources.dll

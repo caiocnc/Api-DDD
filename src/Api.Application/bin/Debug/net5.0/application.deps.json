@@ -31,7 +31,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "application/1.0.0": {
+      "Application/1.0.0": {
         "dependencies": {
           "CrossCutting": "1.0.0",
           "Domain": "1.0.0",
@@ -321,10 +321,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "application.dll": {}
+          "Application.dll": {}
         },
         "compile": {
-          "application.dll": {}
+          "Application.dll": {}
         }
       },
       "AutoMapper/10.1.1": {
@@ -3062,7 +3062,7 @@
     }
   },
   "libraries": {
-    "application/1.0.0": {
+    "Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

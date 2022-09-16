@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YQ2Dk9HRKYmei7X4TkBvAQFZfxZJ8KdNCm/S4cXysRM/AdO7O5oLxvyjH2Vnqm8TC2YrQqhx1oXPrQaw2aVPUg==",
+  "dgSpecHash": "xkf2ejMx7nzZNFik/glaMisC2bzdYdR7NjE9TY2BZzyxk8kLm7x3JhboDaCg8/Is93Lm7E6r7kkfBlXdztdDxQ==",
   "success": true,
-  "projectFilePath": "D:\\curso_api_netcore\\src\\Api.Application\\application.csproj",
+  "projectFilePath": "D:\\curso_api_netcore\\src\\Api.Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Conta\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Conta\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

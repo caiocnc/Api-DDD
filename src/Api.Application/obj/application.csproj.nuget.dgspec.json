@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\curso_api_netcore\\src\\Api.Application\\application.csproj": {}
+    "D:\\curso_api_netcore\\src\\Api.Application\\Application.csproj": {}
   },
   "projects": {
-    "D:\\curso_api_netcore\\src\\Api.Application\\application.csproj": {
+    "D:\\curso_api_netcore\\src\\Api.Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\curso_api_netcore\\src\\Api.Application\\application.csproj",
-        "projectName": "application",
-        "projectPath": "D:\\curso_api_netcore\\src\\Api.Application\\application.csproj",
+        "projectUniqueName": "D:\\curso_api_netcore\\src\\Api.Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "D:\\curso_api_netcore\\src\\Api.Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Conta\\.nuget\\packages\\",
         "outputPath": "D:\\curso_api_netcore\\src\\Api.Application\\obj\\",
         "projectStyle": "PackageReference",

@@ -8645,9 +8645,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\curso_api_netcore\\src\\Api.Service.Test\\Api.Service.Test.csproj",
-      "projectName": "Api.Service.Test",
-      "projectPath": "D:\\curso_api_netcore\\src\\Api.Service.Test\\Api.Service.Test.csproj",
+      "projectUniqueName": "D:\\curso_api_netcore\\src\\Api.Service.Test\\Service.Test.csproj",
+      "projectName": "Service.Test",
+      "projectPath": "D:\\curso_api_netcore\\src\\Api.Service.Test\\Service.Test.csproj",
       "packagesPath": "C:\\Users\\Conta\\.nuget\\packages\\",
       "outputPath": "D:\\curso_api_netcore\\src\\Api.Service.Test\\obj\\",
       "projectStyle": "PackageReference",
