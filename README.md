@@ -1,2 +1,2 @@
-# curso_api_netcore
- Curso sobre API - Arquitetura com DDD
+# API DDD
+Projeto de Estudo API DDD
